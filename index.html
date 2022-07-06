@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Of Dice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="main">
+    <h1>Game of Dice</h1>
+    <h3>Target Score: 30</h3>
+    <label id="one">Player 1 Score: </label>
+    <input id="in1" type="number" placeholder="--score of player 1--">
+    <br><br>
+    <label id="two">Player 2 Score: </label>
+    <input id="in2" type="number" placeholder="--score of player 2--"><br><br>
+    <button onclick="play()">Roll the Dice</button>
+    <input id="score" type="text" placeholder="--number on dice--"><br><br>
+    <button onclick="replay()">Replay</button>
+    <br><br>
+    <p id="out">--result--</p><br>
+</div>
+    <script src="./script.js"></script>
+    <video autoplay muted loop id="myVideo">
+        <source src="https://vod-progressive.akamaized.net/exp=1657135514~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F1671%2F16%2F408358586%2F1750241212.mp4~hmac=7dfa155847de2e6269c8ad49087d96ae367416553717e8cd2ebd230c154662d0/vimeo-prod-skyfire-std-us/01/1671/16/408358586/1750241212.mp4" type="video/mp4">
+    </video>
+</body>
+</html>
